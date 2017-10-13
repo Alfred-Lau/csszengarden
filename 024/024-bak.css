@@ -1,0 +1,175 @@
+body{
+    background: #fff url("bg.gif") no-repeat fixed top left;
+    color: #333;
+    font-family: verdana, helvetica, arial, sans-serif;
+    margin:0 20px;
+}
+
+.page-wrapper{
+    position: relative;
+    width: 710px;
+    background: url("header.jpg") no-repeat top left;
+    padding-top: 144px;
+    margin:0 auto -1px auto;
+    
+    border-bottom: 5px solid #09345f;
+}
+
+header{
+    display: none;
+}
+
+.summary{
+
+}
+
+.summary p:first-child{
+    display: none;
+}
+
+.summary p:last-child{
+    text-align: right;
+    margin-top:0;
+    font-size: 9px;
+    padding-right: 5px;
+    color: #999;
+}
+
+.preamble{
+    width: 529px;
+    margin:22px 0 0 176px;
+}
+
+.preamble h3{
+    background: transparent url(h3_theroadtoenlightenment.gif) no-repeat top left;
+    width: 529px;
+    height: 26px;
+    margin-bottom: 0px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preamble p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.preamble p:nth-child(2){
+    margin-top: 10px;
+}
+
+.explanation{
+    width: 529px;
+    margin:25px 0 0 176px;
+}
+
+.explanation h3{
+    background: transparent url("h3_sowhatisthisabout.gif") no-repeat left top;
+    margin-bottom: 0px;
+    width: 529px;
+    height: 26px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.explanation p{
+    font-size: 12px;
+    line-height:18px;
+    margin-top: 10px;
+}
+
+.participation{
+    width: 529px;
+    margin:25px 0 0 176px;
+}
+
+.participation h3{
+    background: transparent url("h3_participation.gif") no-repeat top left;
+    margin-bottom: 0px;
+    width: 529px;
+    height: 26px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.participation p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.benefits{
+    width: 529px;
+    margin:25px  0 0 176px;
+}
+
+.benefits h3{
+    background: transparent url("h3_benefits.gif") no-repeat left top;
+    margin-top:0;
+    width: 529px;
+    height: 26px;
+    text-indent:100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.benefits p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.requirements{
+    width: 529px;
+    margin:25px  0 0 176px;
+}
+
+.requirements h3{
+    background: transparent url("h3_requirements.gif") no-repeat left top;
+    margin-top:0;
+    width: 529px;
+    height: 26px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.requirements p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+a:link, a:visited{
+    color: #999;
+}
+
+footer{
+    text-align: center;
+    font-size: 9px;
+
+    margin:0 0 5px 0;
+    padding:10px  0 0 0;
+
+    width:100%;
+}
+
+footer a, footer a:link, footer a:visited{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: absolute;
+    width: 150px;
+    top: 166px;
+    left: 5px;
+}
+
+.design-selection{
+    
+}

@@ -1,0 +1,176 @@
+body{
+    width:2048px;
+    margin:0;
+    font:11px/1.5em Times, Helvetica, sans-serif;
+}
+
+div.extra2{
+    background: url("bg_face.jpg") no-repeat left bottom;
+    position: fixed;
+    left:0;
+    top:0;
+    height:600px;
+    width:265px;
+    z-index: 2;
+}
+
+div.extra3{
+    background: url("bg_white.png") ;
+    position: fixed;
+    left:0;
+    top:0;
+    height:100%;
+    width:225px;
+    z-index:1;
+}
+
+header{
+    position: absolute;
+    left:220px;
+    width:1828px;
+}
+
+header h1{
+    width:493px;
+    height:83px;
+    margin:20px 0 0;
+    background-image: url("csszengarden.jpg");
+    text-indent:100%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.summary{
+    position: absolute;
+    width:1300px;
+    left:288px;
+    top:98px;
+    letter-spacing: 0.1em;
+    color: #a5a3b5;
+    background: transparent;
+}
+
+div.summary p:last-child, div.summary p:first-child{
+    display: inline;
+    margin:0;
+
+}
+
+div.extra1{
+    position: absolute;
+    left:225px;
+    top:90px;
+    width:1823px;
+    background: #A5A3B5;
+}
+
+.preamble{
+    position: absolute;
+    left:375px;
+    top:160px;
+    width:200px;
+    text-align: justify;
+}
+
+.preamble h3{
+    text-indent:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    width:200px;
+    height:25px;
+    background:url("theroad.jpg");
+    margin: 0 0 0 0.5em;
+}
+
+.preamble p{
+    margin:0 0.5em 0.5em;
+}
+
+
+.explanation, .participation, .requirements, .benefits{
+    position: absolute;
+    top:160px;
+    width:200px;
+}
+.explanation{
+    left:625px;
+}
+
+.participation{
+    left:875px;
+}
+
+.requirements{
+    width:400px;
+    left: 1375px;
+}
+
+.benefits{
+    left:1125px;
+}
+
+
+
+.explanation h3, .participation h3, .requirements h3, .benefits h3{
+    text-indent:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    width:200px;
+    height:25px;
+    margin: 0 0 0.5em;
+
+}
+
+.explanation h3{
+    background: url("sowhatisthisabout.jpg");
+}
+.participation h3{
+    background: url("participation.jpg");
+}
+
+.requirements h3{
+    width:400px;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url("requirements.jpg");
+}
+
+.benefits h3{
+    background: url("benefits.jpg");
+}
+
+
+.sidebar{
+    position: absolute;
+    left:1818px;
+    top:160px;
+    width:220px;
+    background: url("bg_linklist.jpg") repeat-y;
+}
+
+.design-selection li a:link, .design-selection li a:visited{
+    display: block;
+    margin-left:-10px;
+    padding-left:26px;
+    color: #8b879e;
+    border-top:1px solid #c6c6d2;
+    background: url("linklistlink.jpg") no-repeat;
+}
+
+a.designer-name:link, a.designer-name:visited{
+    color: #000;
+}
+
+div.design-selection h3{
+
+    float:left;
+    margin-top: 0;
+    width: 25px;
+    height: 200px;
+    background-image: url(selectadesign.jpg);
+    background-repeat: no-repeat;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}

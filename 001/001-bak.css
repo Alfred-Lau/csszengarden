@@ -1,0 +1,193 @@
+body{
+    background: #fff url("blossoms.jpg") no-repeat right bottom;
+    margin: 0;
+    padding: 0;
+    color: #555753;
+
+    font: 75% georgia, sans-serif;
+    line-height: 1.88889;
+}
+
+.page-wrapper{
+    background: url("zen-bg.jpg") no-repeat top left;
+    margin:0;
+    padding:0 175px 0 110px;
+    position: relative;
+}
+
+.page-wrapper .intro{
+    width:100%;
+    min-width:470px;
+}
+
+header{
+    height: 87px;
+    margin-top: 20px;
+}
+
+header h1{
+    background: transparent url(h1.gif) no-repeat top left;
+    margin-top: 10px;
+    display: block;
+    width: 219px;
+    height: 87px;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header h2{
+    background: transparent url(h2.gif) no-repeat top left;
+    margin-top: 58px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 18px;
+    float: right;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.summary{
+    clear: both;
+    width: 160px;
+
+    margin:20px 20px 20px 10px;
+
+    float: left;
+}
+
+.summary p{
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+    margin-top: 0;
+}
+
+.preamble{
+    clear: right;
+    padding:0 10px;
+}
+
+.preamble h3{
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #7D775C;
+}
+
+.preamble p{
+    margin-top:0;
+    text-align: justify;
+}
+
+.supporting {
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.supporting h3{
+    font: italic normal 1.4em georgia, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #7D775C;
+}
+
+.supporting p{
+    margin-top: 0;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/*a tag is necessary each time*/
+footer a:link, footer a:visited {
+    margin-right: 20px;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B7A5DF;
+}
+
+.sidebar{
+    position: absolute;
+    top:0;
+    right:0;
+    margin-left: 600px;
+}
+
+.sidebar .wrapper{
+    margin-top: 150px;
+    width: 130px;
+    padding: 10px;
+    font: 10px verdana, sans-serif;
+    background: transparent url(paper-bg.jpg) repeat-y top left;
+}
+
+.sidebar .wrapper h3.select{
+    background: transparent url(h3.gif) no-repeat top left;
+    margin: 10px 0 5px 0;
+    width: 97px;
+    height: 16px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar .wrapper ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li{
+    line-height: 1.3em;
+    background: transparent url(cr1.gif) no-repeat top center;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sidebar li a:link {
+    color: #988F5E;
+}
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B7A5DF;
+}
+
+.extra1{
+    position: absolute;
+    top:40px;
+    right:0;
+
+    width: 148px;
+    height:110px;
+
+    background: url("cr2.gif") no-repeat left top;
+}
+
+.design-archives h3{
+    background: transparent url(h5.gif) no-repeat top left;
+    margin: 10px 0 5px 0;
+    width: 97px;
+    height: 16px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.zen-resources h3{
+    background: url("h6.gif") no-repeat left top;
+    margin:10px 0 5px 0;
+    width: 63px;
+    height: 10px;
+    text-indent:100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
